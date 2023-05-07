@@ -66,7 +66,7 @@ These files provide a bash script for quickly deploying multiple octoprint insta
 * Allow removal of individual camera services. Improvements to instance and camera removal.
 * Haproxy fixed! No more trailing slash required! Running new octoprint_deploy on an older installation automatically update these entries.
 * Multi-camera support (experimental). Clean-up of haproxy.cfg on instance removal still needs work.
-* If haproxy is used, cameras stream can be placed behind it. PLEASE NOTE: if cameras are used with haproxy a relative stream path is used. This means that your stream will not show up in the Control tab unless you access with the haproxy path (http://host/instancename/) (remember, trailing slash is required!)
+* If haproxy is used, cameras stream can be placed behind it. PLEASE NOTE: if cameras are used with haproxy a relative stream path is used. This means that your stream will not show up in the Control tab unless you access with the haproxy path (http://host/instancename/) (trailing slash not required in recent update!)
 
 
 
